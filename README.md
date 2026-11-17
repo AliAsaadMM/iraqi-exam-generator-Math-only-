@@ -1,15 +1,34 @@
-# Iraqi Exam Sheet Generator (صانع الأسئلة الامتحانية العراقية)
+# 📄 صانع الأسئلة الامتحانية العراقية (Iraqi Exam Sheet Generator)
 
-A Streamlit web app that converts handwritten exam photos or textbook PDFs/images into formatted, print-ready Iraqi Ministry of Education exam PDFs with full Arabic RTL and LaTeX math support.
+تطبيق ويب مبني باستخدام **Streamlit** وذكاء **Gemini AI** لتحويل صور الأسئلة المكتوبة بخط اليد أو صفحات الكتب الدراسية (PDF أو صور) إلى أوراق أسئلة امتحانية رسمية جاهزة للطباعة بصيغة PDF، وفق التنسيق المعتمد في المدارس العراقية مع دعم كامل للغة العربية (RTL) والمعادلات الرياضية (LaTeX).
 
-## Features
-- **Handwritten OCR**: Extracts and sequentially numbers questions from photos using Gemini AI.
-- **Textbook Question Curation**: Selects a custom number of exam questions from PDF chapters or book page images.
-- **LaTeX Math Rendering**: Automatically converts `$ ... $` and `$$ ... $$` equations into crisp vector SVGs.
-- **Official Layout & Auto-Fit**: Formats headers/footers in traditional Iraqi exam style and scales typography to fit 1 or 2 pages on demand.
+---
 
-## Run Locally
+## ✨ المميزات الرئيسية
 
-1. Install dependencies:
+- **📷 استخراج الأسئلة من خط اليد (OCR):** قراءة وتحويل صور أوراق الأسئلة المكتوبة بخط اليد إلى نص منسق ومرقم تلقائياً عبر صفحات متعددة.
+- **📚 استخراج الأسئلة من الكتب الدراسية:** تحليل ملفات PDF أو صور صفحات الكتاب واختيار عدد محدد من الأسئلة حسب معايير المدرس (مثل فصل معين أو مستوى صعوبة محدد).
+- **🧮 دعم المعادلات الرياضية (LaTeX):** تحويل المعادلات المكتوبة بصيغة `$...$` أو `$$...$$` إلى رسوميات متجهة (SVG) عالية الدقة مناسبة للطباعة.
+- **🏛️ قالب امتحاني رسمي:** ترويسة وتذييل مطابقان للنموذج الوزاري العراقي (اسم المدرسة، المادة، الصف، العام الدراسي، الدور، الوقت، واسم المدرس).
+- **📐 تحكم ذكي بحجم وعدد الصفحات:** إمكانية الطباعة بحجم A4 كامل أو نصف صفحة تلقائياً، مع ميزة تصغير الخط والمسافات تلقائياً لضغط الأسئلة ضمن صفحة واحدة أو صفحتين.
+
+---
+
+## 🛠️ متطلبات التشغيل
+
+- **Python 3.10** أو أحدث.
+- مفتاح **Gemini API Key** (يمكن الحصول عليه مجاناً من [Google AI Studio](https://aistudio.google.com/)).
+- حزم النظام الخاصة بمكتبة **WeasyPrint** (مرفقة في ملف `packages.txt` لدعم النشر السحابي).
+
+---
+
+## 🚀 طريقة التشغيل محلياً
+
+1. **استنساخ المستودع (Clone):**
    ```bash
-   pip install -r requirements.txt
+   git clone [https://github.com/YOUR_USERNAME/iraqi-exam-generator.git](https://github.com/AliAsaadMM/iraqi-exam-generator-Math-only.git)
+   cd iraqi-exam-generator
+   ```
+
+2. **تثبيت المكتبات المطلوبة:**
+   ```bash
