@@ -26,7 +26,7 @@
 
 1. **استنساخ المستودع (Clone):**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/iraqi-exam-generator.git](https://github.com/AliAsaadMM/iraqi-exam-generator-Math-only-.git)
+   git clone [https://github.com/AliAsaadMM/iraqi-exam-generator-Math-only-.git](https://github.com/AliAsaadMM/iraqi-exam-generator-Math-only-.git)
    cd iraqi-exam-generator
    ```
 
