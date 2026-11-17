@@ -28,7 +28,7 @@
   ```bash
    git clone https://github.com/AliAsaadMM/iraqi-exam-generator-Math-only-.git
    cd iraqi-exam-generator-Math-only-
-
+  ```
 2. **تثبيت المكتبات المطلوبة:**
    ```bash
    pip install -r requirements.txt
