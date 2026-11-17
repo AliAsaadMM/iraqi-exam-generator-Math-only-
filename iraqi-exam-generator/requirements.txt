@@ -1,6 +1,0 @@
-streamlit
-google-genai
-weasyprint
-pypdf
-matplotlib
-requests
