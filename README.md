@@ -25,10 +25,9 @@
 ## 🚀 طريقة التشغيل محلياً
 
 1. **استنساخ المستودع (Clone):**
-   ```bash
-   git clone [https://github.com/AliAsaadMM/iraqi-exam-generator-Math-only-.git](https://github.com/AliAsaadMM/iraqi-exam-generator-Math-only-.git)
-   cd iraqi-exam-generator
-   ```
+  ```bash
+   git clone https://github.com/AliAsaadMM/iraqi-exam-generator-Math-only-.git
+   cd iraqi-exam-generator-Math-only-
 
 2. **تثبيت المكتبات المطلوبة:**
    ```bash
